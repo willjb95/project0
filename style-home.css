@@ -1,0 +1,48 @@
+
+#header{
+  background-color: #333;
+  height: 40px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.topnav {
+  background-color: #333;
+  /* Add a black background color to the top navigation */
+  overflow: hidden;
+  /* Overflow specifies what happens if content overflows */
+}
+
+.topnav a {
+  /* Style the links inside the navigation bar */
+  float: left;
+  /* The float property is used for positioning */
+  display: block;
+  color: #faf3e7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Monsterrat", Arial, Helvetica, sans-serif
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  /* Change the color of links on hover */
+}
+
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+  /* Add an active class to highlight the current page */
+}
+
+
+.topnav .icon {
+  display: none;
+  /* Hide the link that should open and close the topnav on small screens */
+}
