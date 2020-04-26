@@ -4,27 +4,37 @@
   height: 40px;
 }
 
-.title {
+#title {
+  background-color: #333;
+  height: 70px;
+}
+
+.title-header {
   font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  color: #faf3e7;
+  font-family: "Monsterrat", Arial, Helvetica, sans-serif
 }
 
 .topnav {
   background-color: #333;
   /* Add a black background color to the top navigation */
-  overflow: hidden;
+  overflow: auto;
   /* Overflow specifies what happens if content overflows */
+  width: 100%;
 }
 
 .topnav a {
   /* Style the links inside the navigation bar */
   float: left;
   /* The float property is used for positioning */
-  display: block;
   color: #faf3e7;
   text-align: center;
-  padding: 14px 16px;
+  width: 18.74%;
+  padding: 12px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   font-family: "Monsterrat", Arial, Helvetica, sans-serif
 }
 
@@ -34,15 +44,31 @@
   /* Change the color of links on hover */
 }
 
-
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
   /* Add an active class to highlight the current page */
 }
 
-
 .topnav .icon {
   display: none;
   /* Hide the link that should open and close the topnav on small screens */
+}
+
+#content {
+  width: 80%;
+  border: 5px solid #333;
+  padding: 30px;
+  margin: 20px auto;
+}
+
+.entry-title, .widgettitle {
+  text-align: center;
+}
+
+#sidebar {
+  width: 80%;
+  border: 5px solid #333;
+  padding: 30px;
+  margin: 20px auto;
 }
